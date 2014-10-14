@@ -1,0 +1,28 @@
+{
+    "name": "tracker/reader",
+    "description": "App Event Data Reader - Made for Tracker",
+    "homepage": "https://github.com/fightbulc/tracker_reader",
+    "type": "library",
+    "keywords": [
+        "tracker",
+        "app",
+        "events",
+        "reader"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tino Ehrich",
+            "email": "opensource@efides.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tracker\\Reader\\": "src/"
+        }
+    }
+}
