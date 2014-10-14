@@ -1,6 +1,6 @@
 <?php
 
-namespace Tracker;
+namespace Tracker\Reader;
 
 /**
  * Reader
